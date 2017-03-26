@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>64c9353f-4e3c-448e-9138-d7791336722f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>02 - PythonReadPrint.py</StartupFile>
+    <StartupFile>01 - PythonBasics.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -37,8 +37,9 @@
     <Compile Include="09 - PythonDictionaries.py" />
     <Compile Include="10 - PythonFiles.py" />
     <Compile Include="11 - PythonClasses.py" />
-    <Compile Include="12 - PythonModules.py" />
-    <Compile Include="13 - PythonNamespaces_Scoping.py" />
+    <Compile Include="PythonExamples.py" />
+    <Compile Include="PythonModules.py" />
+    <Compile Include="PythonNamespaces_Scoping.py" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="{2af0f10d-7135-4994-9156-5d01c9c11b7e}\2.7" />

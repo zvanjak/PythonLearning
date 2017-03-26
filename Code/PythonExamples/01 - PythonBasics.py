@@ -2,7 +2,7 @@ import math
 # -*- coding: cp1250 -*-
 # built-in types
 normalInt = 12345
-decimalInt = 12345678L       # long int
+decimalInt = 12345678       # long int
 binaryInt = 0b1011110011     # pocinje s 0b ili 0B
 octalInt = 0o4567123         # pocinje s 0o
 hexInt = 0xABCD
@@ -17,49 +17,49 @@ sum = total_sum + \
       sum2
 
 # lokacija objekta u memoriji
-print id(normalInt)
+#print id(normalInt)
 
 # tip objekta
-print type(decimalInt)
+print (type(decimalInt).__name__)
 
 # provjera tipa podatka
-print isinstance(s, basestring)
+print (isinstance(s, str))
 
 #duljina bitova
-print "Binarni prikaz broja {0} je {1}".format(normalInt, bin(normalInt))    # pretvorba u binarni broj
-print "Duljina bitova broja {0} je {1}".format(normalInt, normalInt.bit_length())
+print ("Binarni prikaz broja {0} je {1}".format(normalInt, bin(normalInt)))    # pretvorba u binarni broj
+print ("Duljina bitova broja {0} je {1}".format(normalInt, normalInt.bit_length()))
  
 #float
-print floatNum.as_integer_ratio() # float kao omjer dva integera, vraća tuple
+print (floatNum.as_integer_ratio()) # float kao omjer dva integera, vraďż˝a tuple
 
 tupleOmjeraPI = math.pi.as_integer_ratio()
-print "Brojevi za omjer broja pi: {0}".format(tupleOmjeraPI)
+print ("Brojevi za omjer broja pi: {0}".format(tupleOmjeraPI))
 
-print "{0} odgovara integer vrijednosti: {1}".format(floatNum, floatNum.is_integer())   # provjera odgovara li float broja integer vrijednosti
+print ("{0} odgovara integer vrijednosti: {1}".format(floatNum, floatNum.is_integer()))   # provjera odgovara li float broja integer vrijednosti
 
-print floatNum.hex() # heksidecimalna vrijednost floata
+print (floatNum.hex()) # heksidecimalna vrijednost floata
 
 #kompleksni brojevi
-print "Realni dio kompleksnog broja {0} je {1}, a imaginarni je {2}".format(complexNum, complexNum.real, complexNum.imag)
+print ("Realni dio kompleksnog broja {0} je {1}, a imaginarni je {2}".format(complexNum, complexNum.real, complexNum.imag))
 
 complexNum1 = complex(0,1)      # kompleksni broj pomocu built-in funkcije complex()
-print complexNum1
+print (complexNum1)
 
-complexNum2 = complex()         # complex bez argumenta, analogno se može izostaviti samo realni ili imaginarni dio 
-print complexNum2
+complexNum2 = complex()         # complex bez argumenta, analogno se moďż˝e izostaviti samo realni ili imaginarni dio 
+print (complexNum2)
 
 complexNum3 = complex('3+2j')   # string kao argument, javlja value error za npr. '3 + 2j'
-print complexNum3
+print (complexNum3)
 
-print complexNum1 * complexNum3
+print (complexNum1 * complexNum3)
 
 #divmod
-print divmod(normalInt, 2)  # vraća tuple (x//y, x%y)
+print (divmod(normalInt, 2))  # vraďż˝a tuple (x//y, x%y)
 
 '''
     komentar
     kroz
-    više
+    viďż˝e
     redaka
 '''
 
