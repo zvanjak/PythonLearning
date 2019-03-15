@@ -4,9 +4,9 @@ import math
 a = (1, 2, 3, 4, 5, 6, 6, 7, 8)
 
 # ispis old way s %
-print "Duljina = ", len(a)
-print "Duljina = %d" % len(a)
-print "Duljina je %d a prvi element je %d" % (len(a), a[0])
+print("Duljina = ", len(a))
+print("Duljina = %d" % len(a))
+print("Duljina je %d a prvi element je %d" % (len(a), a[0]))
 
 # ispis s format
 print '1. Duljina je {0} a prvi element je {1}'.format(len(a), a[0])

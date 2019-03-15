@@ -20,15 +20,15 @@ sum = total_sum + \
 #print id(normalInt)
 
 # tip objekta
-print (type(decimalInt).__name__)
+print(type(decimalInt).__name__)
 
 # provjera tipa podatka
-print (isinstance(s, str))
+print(isinstance(s, str))
 
 #duljina bitova
-print ("Binarni prikaz broja {0} je {1}".format(normalInt, bin(normalInt)))    # pretvorba u binarni broj
-print ("Duljina bitova broja {0} je {1}".format(normalInt, normalInt.bit_length()))
- 
+print("Binarni prikaz broja {0} je {1}".format(normalInt, bin(normalInt))) # pretvorba u bin. broj
+print("Duljina bitova broja {0} je {1}".format(normalInt, normalInt.bit_length()))
+
 #float
 print (floatNum.as_integer_ratio()) # float kao omjer dva integera, vra�a tuple
 
