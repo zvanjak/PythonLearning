@@ -3,13 +3,13 @@ import os    # modul importan direktno, treba ih referincirati s full package na
 print (os.path.abspath("."))
 
 import os as regexp         # import, ali s drugacijim nazivom namespacea
-print regexp.search('a', 'a')
+print (regexp.search('a', 'a'))
 
 import os.path              # moze se importati i submodul, uz kompletno referenciranje
 print (os.path.abspath("."))
 
 from datetime import date
-print date.today()
+print (date.today())
 
 
 # POPIS NAJKORISNIJIH MODULA
