@@ -2,7 +2,7 @@
 # that are passed are really “applied” to the function object.
 
 def fun(name, location, year=2006):
-    print "%s/%s/%d" % (name, location, year)
+    print ("%s/%s/%d" % (name, location, year))
 
 fun("Teag", "San Diego")
 
@@ -30,5 +30,5 @@ quotient, remainder = divide(1456,33)
 # LABMDA IZRAZI
 # sintaksa - lambda <args> : <expression>
 bigger = lambda a, b : a > b
-print bigger(1,2)   # --> False
-print bigger(2,1)   # --> True
+print (bigger(1,2))   # --> False
+print (bigger(2,1))   # --> True
